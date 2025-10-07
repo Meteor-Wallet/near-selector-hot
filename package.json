@@ -25,6 +25,7 @@
     "example": "cd example && yarn start",
     "build:example": "cd example && yarn build",
     "build:meteor": "PACKAGE=meteor vite build --config ./wallets/vite.config.ts",
+    "build:meteor-app": "PACKAGE=meteor-app vite build --config ./wallets/vite.config.ts",
     "build:wallets": "yarn build:hotwallet && yarn build:ledger && yarn build:mnw && yarn build:near-mobile && yarn build:meteor && yarn build:wallet-connect && yarn build:nightly",
     "build:hotwallet": "PACKAGE=hotwallet vite build --config ./wallets/vite.config.ts",
     "build:near-mobile": "PACKAGE=near-mobile vite build --config ./wallets/vite.config.ts",
